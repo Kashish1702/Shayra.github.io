@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+}
+    
+body{
+    background-image: url("https://images.pexels.com/photos/7477/night-trees-stars.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+    
+}
+
+#about{
+    /* position: absolute;
+    top: 20vh; */
+    font-size: large;
+    font-weight: 200;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:bisque;
+    
+}
+#container{
+    display:flexbox;
+}
+#message{
+    width:35%;
+    text-align: justify;
+    font-size: medium;
+    font-weight: 200;
+    font-style: inherit;
+    margin: 60px;
+    margin-left: 40px;
+    padding:10px;
+    color:floralwhite
+
+    
+}
+#works{
+    width:35%;
+    float:right;
+    text-align: justify;
+    font-size: medium;
+    font-weight: 200;
+    font-style: inherit;
+    margin: 60px;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding:10px;
+    color:floralwhite;
+
+}
+#board{
+    width: 55%;
+    height: auto;
+    float: right;
+    position: relative;
+    transform-style: preserve-3d;
+    animation:rotation 15s infinite linear ;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#board figure{
+    display:flex;
+    position: relative;
+    width: 57%;
+    height:70%;
+    left:20px;
+    top:10px;
+    right:10px;
+
+    overflow: hidden;
+   
+}
+#board figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+
+
+
+
+#board img{
+    -webkit-filter: grayscale(0);
+    cursor:pointer;
+    transition:all .001s ease;
+    width:60%;
+}
+#board img:hover{
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2,1.2);
+}
+#board2{
+    width: 55%;
+    height: 100%;
+    float: left;
+    position: relative;
+    transform-style: preserve-3d;
+    animation:rotation 15s infinite linear ;
+    margin-left: 30px;
+}
+
+#board2 figure{
+    display:flex;
+    position: relative;
+    width: 60%;
+    height:60%;
+    left:20px;
+    top:-15px;
+    right:10px;
+
+    overflow: hidden;
+   
+}
+#board2 figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+
+
+
+
+#board2 img{
+    -webkit-filter: grayscale(0);
+    cursor:pointer;
+    transition:all .001s ease;
+    width:60%;
+}
+#board2 img:hover{
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2,1.2);
+}
+@keyframes rotation{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+#container2{
+    float:right;
+    width:50%;
+}
+#board3{
+    width:50%;
+    height:0vh;
+    
+    position:absolute;
+    transform-style: preserve-3d;
+    animation: rotation 15s infinite linear;
+    top: 95vh;
+    left: 2vw;
+    
+}
+#board3:hover{
+    animation-play-state: paused;
+}
+#board3 figure{
+    display: block;
+    position:absolute;
+    width:450px;
+    height:190px;
+    left:10px;
+    
+    overflow:hidden;
+    
+}
+#board3 figure:nth-child(1){transform: rotateY(90deg) translateZ(200px);}
+#board3 figure:nth-child(2){transform: rotateY(180deg) translateZ(200px);}
+#board3 figure:nth-child(3){transform: rotateY(270deg) translateZ(200px);}
+#board3 figure:nth-child(4){transform: rotateY(360deg) translateZ(200px);}
+#board3 img{
+    -webkit-filter: grayscale(0);
+    cursor:pointer;
+    transition:all .001s ease;
+    width:60%;
+}
+#board3 img:hover{
+    -webkit-filter: grayscale(0);
+    transform: scale(1,1);
+}
+#board4{
+    width:50%;
+    height:50vh;
+    /* float:left; */
+    position:absolute;
+    transform-style: preserve-3d;
+    animation: rotation 13s infinite linear;
+    top: 95vh;
+    left: 52vw;
+   
+}
+#board4:hover{
+    animation-play-state: paused;
+}
+#board4 figure{
+    display: block;
+    position:absolute;
+    width:450px;
+    height:190px;
+    left:10px;
+    
+    overflow:hidden;
+    
+}
+#board4 figure:nth-child(1){transform: rotateY(90deg) translateZ(200px);}
+#board4 figure:nth-child(2){transform: rotateY(180deg) translateZ(200px);}
+#board4 figure:nth-child(3){transform: rotateY(270deg) translateZ(200px);}
+#board4 figure:nth-child(4){transform: rotateY(360deg) translateZ(200px);}
+#board4 img{
+    -webkit-filter: grayscale(0);
+    cursor:pointer;
+    transition:all .001s ease;
+    width:60%;
+}
+#board4 img:hover{
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2,1.2);
+}
+h3{
+    margin-right: 180vh;
+    font-family: 'Comforter Brush', cursive;
+    display: inline;
+    
+    border-radius: 20px;
+    
+}
+
+nav{
+    background-color: #000000;
+    opacity: 80%;
+    margin: 0%;
+    padding: 25px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    width: 95vw;
+
+    
+    
+    
+
+}
+h2{
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: small;
+    margin-right: 20px;
+    
+}
+ul {
+    list-style: none;
+    /* padding-left: 0px; */
+  }
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    position: absolute;
+    top: 140vh;
+    width: 99vw;
+  }
+  footer a {
+    text-decoration: none;
+    color: #eee;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .ft-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    /* padding-bottom: 0.625rem; */
+    
+    background-color:rgb(119, 117, 117);
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  /* Sticks footer to bottom */
+ 
+  .container {
+    flex: 1;
+    /* position: relative; */
+    /* top: 160vh; */
+  }
+  /* Footer main */
+  .ft-main {
+      /* position: absolute;
+      top: 200vh;
+      left: 10vw; */
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+  
+  /* Footer main | Newsletter form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="eemail"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+    background-color: #262727;
+  }
+  input[type="submit"] {
+    background-color: #00d188;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+  }
+  /* Footer social */
+  .ft-social {
+    padding: 0 1.875rem 1.25rem;
+  }
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px rgb(0, 0, 0) solid;
+    padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 2.625rem;
+    white-space: nowrap;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }

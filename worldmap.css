@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #000000;
+}
+.title{
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    font-family: 'Comforter Brush', cursive;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    background-color: #000000;
+    color: aliceblue;
+}
+.div1{
+    background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/map-shadow/images/map.svg);
+    border: #fff;
+    border-width: 10px;
+    position: relative;
+    color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    background-size: 1550px 750px;
+    
+}
+.mapind{
+    position: absolute;
+    top: 42vh;
+    left: 67vw;
+    height: 100px;
+    width: 150px;
+    opacity:0%;
+    transition: 2s;
+}
+.mapind:hover{
+    opacity: 100%;
+}
+.mapaus{
+    position: absolute;
+    top: 69vh;
+    left: 81vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0%;
+    transition: 2s;
+}
+.mapaus:hover{
+    opacity: 100%;
+}
+.maprus{
+    position: absolute;
+    top:7vh ;
+    left:67vw ;
+    height: 110px;
+    width: 160px;
+    opacity: 0;
+    transition: 2s;
+}
+.maprus:hover{
+    opacity: 100%;
+}
+.mapuk{
+    position: absolute;
+    top:5vh ;
+    left: 40vw;
+    height: 150px;
+    width: 120px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapuk:hover{
+    opacity: 100%;
+}
+.mapger{
+    position: absolute;
+    top:18vh ;
+    left: 50vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0%;
+    transition: 2s;
+}
+.mapger:hover{
+    opacity: 100%;
+}
+.mapcan{
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapcan:hover{
+    opacity: 100%;
+}
+.mapus{
+    position: absolute;
+    top: 33vh;
+    left: 16vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapus:hover{
+    opacity: 100%;
+}
+.mapswi{
+    position: absolute;
+    top:34vh ;
+    left: 46vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapswi:hover{
+    opacity: 100%;
+}
+.mapchi{
+    position: absolute;
+    top:25vh ;
+    left:70vw ;
+    height: 100px;
+    width: 160px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapchi:hover{
+    opacity: 100%;
+}
+.div2{
+    background-color: black;
+    position: relative;
+    height: 160vh;
+    width: 100vw;
+    color: aliceblue;
+    /* padding: 60px; */
+
+}
+img{
+    margin: 20px;
+}
+h1{
+    margin: 0;
+}
+.gallery2{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Comforter Brush', cursive;
+    letter-spacing: 4px;
+
+}
+.india{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: indiahotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+    animation-timing-function: calc(1,1,1);
+    
+}
+@keyframes indiahotel {
+    0%{
+       content: url(https://images.pexels.com/photos/2955626/pexels-photo-2955626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/2404422/pexels-photo-2404422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/4601796/pexels-photo-4601796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/6466292/pexels-photo-6466292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/5507250/pexels-photo-5507250.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/1485630/pexels-photo-1485630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.USA{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: USAhotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes USAhotel {
+    0%{
+       content: url(https://images.pexels.com/photos/4321154/pexels-photo-4321154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/273204/pexels-photo-273204.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/6316060/pexels-photo-6316060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/809060/pexels-photo-809060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/670269/pexels-photo-670269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/356844/pexels-photo-356844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.china{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: chinahotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes chinahotel {
+    0%{
+       content: url(https://images.pexels.com/photos/189833/pexels-photo-189833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/1115175/pexels-photo-1115175.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/2846034/pexels-photo-2846034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/2915957/pexels-photo-2915957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/1423580/pexels-photo-1423580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.japan{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: japanhotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes japanhotel {
+    0%{
+       content: url(https://images.pexels.com/photos/1134166/pexels-photo-1134166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/1822605/pexels-photo-1822605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/210547/pexels-photo-210547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/3408354/pexels-photo-3408354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.germany{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: germanhotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes germanhotel {
+    0%{
+       content: url(https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/756688/pexels-photo-756688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/415687/pexels-photo-415687.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/1128408/pexels-photo-1128408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/161849/cologne-dom-night-architecture-161849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.switzerland{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: switzhotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes switzhotel {
+    0%{
+       content: url(https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/1291766/pexels-photo-1291766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/2779863/pexels-photo-2779863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/167692/pexels-photo-167692.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/1105840/pexels-photo-1105840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/733148/pexels-photo-733148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.canada{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: canadahotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes canadahotel {
+    0%{
+       content: url(https://images.pexels.com/photos/2478248/pexels-photo-2478248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/2695391/pexels-photo-2695391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/1048010/pexels-photo-1048010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/1516047/pexels-photo-1516047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/208749/pexels-photo-208749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.uk{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: ukhotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes ukhotel {
+    0%{
+       content: url(https://images.pexels.com/photos/460635/pexels-photo-460635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/161863/edinburgh-carlton-hill-landscape-scotland-161863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/242246/pexels-photo-242246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/92632/pexels-photo-92632.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/258117/pexels-photo-258117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.russia{
+    height: 40vh;
+    width: 30vw;
+    opacity: 60%;
+    animation: russiahotel 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+@keyframes russiahotel {
+    0%{
+       content: url(https://images.pexels.com/photos/2842117/pexels-photo-2842117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);    
+    }
+    20%{
+        content: url(https://images.pexels.com/photos/8720841/pexels-photo-8720841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    40%{
+        content: url(https://images.pexels.com/photos/4937197/pexels-photo-4937197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    60%{
+        content: url(https://images.pexels.com/photos/785734/pexels-photo-785734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    80%{
+        content: url(https://images.pexels.com/photos/2266406/pexels-photo-2266406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        content: url(https://images.pexels.com/photos/3629813/pexels-photo-3629813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+.hindia{
+    position: absolute;
+    left: 11vw;
+    top: 26vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,green,white,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.husa{
+    position: absolute;
+    
+    left: 46vw;
+    top: 26vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(209, 47, 96),white,rgb(83, 81, 214));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hchina{
+    position: absolute;
+    left: 78vw;
+    top: 26vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(255, 0, 0),rgb(255, 251, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.huk{
+    position: absolute;
+    left: 13vw;
+    top: 118vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(25, 0, 255),white,rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hrussia{
+    position: absolute;
+    left: 78vw;
+    top: 118vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(255, 255, 255),rgb(3, 7, 253),rgb(255, 17, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hgerman{
+    position: absolute;
+    left: 43vw;
+    top: 118vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(180deg,rgb(0, 0, 0),rgb(255, 0, 0),rgb(229, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hswitz{
+    position: absolute;
+    left: 72vw;
+    top: 71vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(255, 0, 76),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hjapan{
+    position: absolute;
+    left: 11vw;
+    top: 71vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(255, 255, 255),rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hcanada{
+    position: absolute;
+    left: 44vw;
+    top: 71vh;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,rgb(255, 0, 0),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav{
+    background-color: #000000;
+    opacity: 100%;
+    margin: 0%;
+    padding: 25px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+h3{
+    margin-right: 140vh;
+    font-family: 'Comforter Brush', cursive;
+    display: inline;
+    
+    border-radius: 20px;
+    
+}
+h2{
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: small;
+    margin-right: 20px;
+    
+}
+ul {
+    list-style: none;
+    /* padding-left: 0; */
+  }
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: #bbb;
+    line-height: 1.5;
+  }
+  footer a {
+    text-decoration: none;
+    color: #eee;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .ft-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    /* padding-bottom: 0.625rem; */
+    background-color: #777;
+    border-radius: 5px;
+  }
+  /* Sticks footer to bottom */
+ 
+  .container {
+    flex: 1;
+  }
+  /* Footer main */
+  .ft-main {
+      /* position: absolute;
+      top: 200vh;
+      left: 10vw; */
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+  
+  /* Footer main | Newsletter form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+    background-color: rgb(51, 49, 49);
+  }
+  input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+  }
+  /* Footer social */
+  .ft-social {
+    padding: 0 1.875rem 1.25rem;
+  }
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 2.625rem;
+    white-space: nowrap;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }
+
+

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+}
+h3{
+    margin-right: 180vh;
+    font-family: 'Comforter Brush', cursive;
+    display: inline;
+    
+    border-radius: 20px;
+    
+}
+
+nav{
+    background-color: #000000;
+    opacity: 80%;
+    margin: 0%;
+    padding: 25px;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+
+    
+    
+    
+
+}
+h2{
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: small;
+    margin-right: 20px;
+    
+}
+.div1{
+    background-image: url(https://images.pexels.com/photos/7477/night-trees-stars.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 150vh;
+    width: 100vw;
+    background-size: 100vw 150vh;
+}
+.div2{
+    position: absolute;
+    background-image:url(https://images.pexels.com/photos/4176714/pexels-photo-4176714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+    height: 40vh;
+    width: 30vw;
+    background-size: 30vw 40vh;
+    top: 20vh;
+    left: 5vw;
+    border: #000000;
+    border-radius:20px;
+    animation: change 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes change {
+    0%{
+        background-image: url(https://images.pexels.com/photos/4176714/pexels-photo-4176714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        /* background-size: 30vw 40vh; */
+    }
+    25%{
+        background-image: url(https://images.pexels.com/photos/8617620/pexels-photo-8617620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    50%{
+        background-image: url(https://images.pexels.com/photos/3923156/pexels-photo-3923156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    75%{
+        background-image: url(https://images.pexels.com/photos/4429561/pexels-photo-4429561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    100%{
+        background-image:url(https://images.pexels.com/photos/4176714/pexels-photo-4176714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+    }
+}
+.div3{
+    position: absolute;
+    background-image:url(https://images.pexels.com/photos/7820379/pexels-photo-7820379.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) ;
+    height: 40vh;
+    width: 30vw;
+    background-size: 30vw 40vh;
+    top: 90vh;
+    left: 65vw;
+    border: #000000;
+    border-radius:20px;
+    animation: change1 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes change1 {
+    0%{
+        background-image: url(https://images.pexels.com/photos/7820379/pexels-photo-7820379.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+    }
+    25%{
+        background-image: url(https://images.pexels.com/photos/3907161/pexels-photo-3907161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    50%{
+        background-image: url(https://images.pexels.com/photos/3923156/pexels-photo-3923156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    75%{
+        background-image: url(https://images.pexels.com/photos/6812437/pexels-photo-6812437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    100%{
+        background-image:url(https://images.pexels.com/photos/7820379/pexels-photo-7820379.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) ;
+    }
+}
+ul {
+    list-style: none;
+    /* padding-left: 0px; */
+  }
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+  }
+  footer a {
+    text-decoration: none;
+    color: #eee;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .ft-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    /* padding-bottom: 0.625rem; */
+    
+    background-color:rgb(119, 117, 117);
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  /* Sticks footer to bottom */
+ 
+  .container {
+    flex: 1;
+  }
+  /* Footer main */
+  .ft-main {
+      /* position: absolute;
+      top: 200vh;
+      left: 10vw; */
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+  
+  /* Footer main | Newsletter form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="eemail"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+    background-color: #2c2b2b;
+  }
+  input[type="submit"] {
+    background-color: #00d188;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+  }
+  /* Footer social */
+  .ft-social {
+    padding: 0 1.875rem 1.25rem;
+  }
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px rgb(0, 0, 0) solid;
+    padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 2.625rem;
+    white-space: nowrap;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }
